@@ -1,0 +1,501 @@
+@charset "utf-8";
+/* Css Document */
+
+
+/* LOGO+搜索框区开始 */
+	/* logo区开始 */
+		#logo_search .logo{
+			width:125px;
+			height:36px;
+			position:absolute;
+			left:0px;
+			top:30px;
+			background:url(../images/tuangou/1.png) no-repeat 0px 0px;
+		}
+	/* logo区结束 */
+	/* 搜索区开始 */
+	#logo_search form.search{
+		width:629px;
+		height:36px;
+		overflow:hidden;
+		/* border:solid 1px blue; */
+		position:absolute;
+		left:212px;
+		top:30px;
+	}
+	#logo_search form.search input.text{
+		width:545px;
+		height:32px;
+	}/* 搜索框区 */
+	#logo_search form.search button.button{
+		width:82px;
+		height:36px;
+	}/* 提交按钮 */
+	/* 搜索区结束 */
+
+	/* 提示信息区开始 */
+	#logo_search p.tishi{
+		position:absolute;
+		left:212px;
+		top:61px;
+	}
+	/* 提示信息区结束 */
+/* LOGO+搜索框区结束 */
+
+/* 导航区开始 */
+#meinu_box{
+	width:100%;
+	height:47px;
+	position:relative;
+	z-index:2;
+	background:#C81623;
+}
+	/* 中间内容区开始 */
+	#meinu_box .mid_content{
+		height:47px;
+		position:relative;
+	}
+
+		/* 左侧全部商品分类区开始 */
+		#meinu_box .mid_content div.left_fenlei{
+			width:210px;
+			height:47px;
+			position:absolute;
+			left:0px;
+			top:0px;
+			background:#B1191A;
+		}
+			#meinu_box .mid_content div.left_fenlei a.quanfen_lei{
+				display:block;
+				width:210px;
+				height:47px;
+				line-height:46px;
+				text-indent:10px;
+				color:#ffffff;
+				font-size:15px;
+			}
+			/* 下拉框区开始 */
+			#meinu_box .mid_content div.left_fenlei ul{
+				width:210px;
+				height:461px;
+				overflow:hidden;
+				background:#C81623;
+			}
+			#meinu_box .mid_content div.left_fenlei ul li{
+				width:200px;
+				padding-left:10px;
+				height:36px;
+			}
+			#meinu_box .mid_content div.left_fenlei ul li:hover{
+				background:#9C0612;
+			}
+			/* 显示区开始 */
+			#meinu_box .mid_content div.left_fenlei ul li p.show{
+				width:190px;
+				height:36px;
+				line-height:36px;
+				border-bottom:dashed 1px #E48B91;
+			}
+				#meinu_box .mid_content div.left_fenlei ul li p.show a{
+					color:#ffffff;
+				}
+			/* 显示区结束 */
+			/* 下拉框区结束 */
+		/* 左侧全部商品分类区结束 */
+		/* 右侧导航区开始 */
+			#meinu_box .mid_content ul.meinu_right li{
+				float:left;
+				height:47px;
+				/* position:relative; */
+			}
+				#meinu_box .mid_content ul.meinu_right li a{
+					display:block;
+					height:47px;
+					padding:0px 20px;
+					line-height:47px;
+					font-size:16px;
+					float:left;
+					color:#FFFFFF;
+				}
+				#meinu_box .mid_content ul.meinu_right li a:hover{
+					background:#9D1112;
+				}
+		/* 右侧导航区结束 */
+	/* 中间内容区结束 */
+/* 导航区结束 */
+
+/* 大轮播图区开始 */
+#lunbo_box{
+	height:463px;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:32px;
+}
+	/* 轮播图片区开始 */
+	#lunbo_box ul.lubo_tu{
+		width:730px;
+		height:454px;
+		position:absolute;
+		left:220px;
+		top:12px;
+		overflow:hidden;
+		/* background:red; */
+	}
+		#lunbo_box ul.lubo_tu li{
+			display:none;
+		}
+		#lunbo_box ul.lubo_tu li.show{
+			width:730px;
+			height:454px;
+			display:block;
+		}
+			#lunbo_box ul.lubo_tu li.show img{
+				width:730px;
+				height:454px;
+			}
+
+		/* 两侧箭头区开始 */
+		#lunbo_box ul.lubo_tu span{
+			display:block;
+			width:28px;
+			height:62px;
+			background:rgba(0,0,0,0.2);
+			font-family:"simsun";
+			font-size:22px;
+			color:#ffffff;
+			font-weight:400;
+			line-height:62px;
+			text-align:center;
+			cursor:pointer;
+			display:none;
+		}
+		#lunbo_box ul.lubo_tu span.slide_left{
+			position:absolute;
+			left:0px;
+			top:210px;
+		}
+		#lunbo_box ul.lubo_tu span.slide_right{
+			position:absolute;
+			right:0px;
+			top:210px;
+		}
+		/* 两侧箭头区结束 */
+	/* 轮播图片区结束 */
+	
+	/* 下方小圆点区开始 */
+	#lunbo_box ul.yuandian{
+		position:absolute;
+		left:521px;
+		bottom:18px;
+	}
+	#lunbo_box ul.yuandian li{
+		width:18px;
+		height:18px;
+		border-radius:9px;
+		background:#3E3E3E;
+		color:#ffffff;
+		line-height:18px;
+		text-align:center;
+		margin-right:4px;
+		float:left;
+		font-weight:700;
+		cursor:pointer;
+	}
+	#lunbo_box ul.yuandian li.cur{
+		background:#B61B1F;
+	}
+	/* 下方小圆点区结束 */
+
+	/* 右侧公告区开始 */
+	#lunbo_box .gonggao_right{
+		width:250px;
+		height:454px;
+		overflow:hidden;
+		position:absolute;
+		right:0px;
+		top:12px;
+		/* border:solid 1px red; */
+	}
+		/* 标题区开始 */
+		#lunbo_box .gonggao_right h2.gg_ttitle{
+			width:284px;
+			height:32px;
+			border:solid 1px #E4E4E4;
+			border-bottom:dashed 1px #E4E4E4;
+			line-height:32px;
+			text-indent:15px;
+			position:absolute;
+			left:0px;
+			top:0px;
+		}
+			#lunbo_box .gonggao_right h2.gg_ttitle a{
+				float:right;
+				padding-right:53px;
+				font-size:12px;
+			}
+		/* 标题区结束 */
+		/* 消息区开始 */
+		#lunbo_box .gonggao_right ul.message{
+			width:248px;
+			height:130px;
+			border:solid 1px #E4E4E4;
+			border-top:none;
+			position:absolute;
+			left:0px;
+			top:34px;
+		}
+			#lunbo_box .gonggao_right ul.message li{
+				float:left;
+				height:26px;
+				width:233px;
+				padding-left:15px;
+				line-height:26px;
+			}
+				#lunbo_box .gonggao_right ul.message li a.m_left{
+					font-weight:900;
+					margin-right:5px;
+				}
+		/* 消息区结束 */
+		/* 小分类区开始 */
+		#lunbo_box .gonggao_right .fenlei{
+			width:249px;
+			height:209px;
+			border-left:solid 1px #E4E4E4;
+			position:absolute;
+			left:0px;
+			top:165px;
+			/* background:blue; */
+		}
+			#lunbo_box .gonggao_right .fenlei a{
+				display:block;
+				width:61px;
+				height:68px;
+				border-right:solid 1px #E4E4E4;
+				border-bottom:solid 1px #E4E4E4;
+				text-align:center;
+				line-height:100px;
+				float:left;
+				position:relative;
+			}
+				#lunbo_box .gonggao_right .fenlei a.huaifei span{
+					display:block;
+					width:19px;
+					height:24px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -3px 0px;
+					position:absolute;
+					left:21px;
+					top:13px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.jipiao span{
+					display:block;
+					width:23px;
+					height:23px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -1px -27px;
+					position:absolute;
+					left:19px;
+					top:15px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.dianying_piao span{
+					display:block;
+					width:23px;
+					height:23px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat 0px -52px;
+					position:absolute;
+					left:18px;
+					top:15px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.youqi{
+					width:62px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.youqi span{
+					display:block;
+					width:24px;
+					height:20px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat 0px -77px;
+					position:absolute;
+					left:18px;
+					top:15px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.caipiao span{
+					display:block;
+					width:21px;
+					height:22px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -2px -102px;
+					position:absolute;
+					left:19px;
+					top:15px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.tuangou span{
+					display:block;
+					width:23px;
+					height:23px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -1px -126px;
+					position:absolute;
+					left:19px;
+					top:14px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.hotel span{
+					display:block;
+					width:23px;
+					height:23px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -1px -151px;
+					position:absolute;
+					left:19px;
+					top:14px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.huoche_piao{
+					width:62px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.huoche_piao span{
+					display:block;
+					width:18px;
+					height:23px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -4px -176px;
+					position:absolute;
+					left:22px;
+					top:14px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.zhongchou span{
+					display:block;
+					width:22px;
+					height:20px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -1px -252px;
+					position:absolute;
+					left:19px;
+					top:15px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.licai span{
+					display:block;
+					width:24px;
+					height:24px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat 0px -201px;
+					position:absolute;
+					left:18px;
+					top:14px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.lipinka span{
+					display:block;
+					width:24px;
+					height:16px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat 0px -277px;
+					position:absolute;
+					left:18px;
+					top:15px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.bai_tiao{
+					width:62px;
+				}
+				#lunbo_box .gonggao_right .fenlei a.bai_tiao span{
+					display:block;
+					width:20px;
+					height:21px;
+					background:url(../images/jd_kuaibao/1.png) no-repeat -1px -227px;
+					position:absolute;
+					left:19px;
+					top:15px;
+				}
+		/* 小分类区结束 */
+		/* 底部图片区开始 */
+		#lunbo_box .gonggao_right a.gg_bottom{
+			display:block;
+			width:250px;
+			height:75px;
+			position:absolute;
+			left:0px;
+			top:379px;
+			background:url(../images/jd_kuaibao/2.jpg) no-repeat 0px 0px;
+		}
+		/* 底部图片区结束 */
+	/* 右侧公告区结束 */
+/* 大轮播图区结束 */
+
+/* 品牌日区开始 */
+#tg_pinpai_ri{
+	height:946px;
+	overflow:hidden;
+	position:relative;
+}
+	/* 标题区开始 */
+	#tg_pinpai_ri h2{
+		height:32px;
+		border-bottom:solid 2px #000000;
+		background:url(../images/tuangou/6.png) no-repeat 0px -248px;
+		position:absolute;
+		left:0px;
+		top:0px;
+	}
+	/* 标题区结束 */
+	/* 下方展示区开始 */
+	#tg_pinpai_ri ul.tg_show{
+		height:876px;
+		position:absolute;
+		left:0px;
+		top:34px;
+		overflow:hidden;
+		/* background:red; */
+	}
+		#tg_pinpai_ri ul.tg_show li{
+			width:398px;
+			height:287px;
+			float:left;
+			margin-top:3px;
+			margin-left:3px;
+			border:solid 1px #ECECEC;
+			cursor:pointer;
+			position:relative;
+		}
+		#tg_pinpai_ri ul.tg_show li:hover{
+			border:solid 1px #E4393C;
+		}
+			#tg_pinpai_ri ul.tg_show li a.tupian{
+				display:block;
+				width:398px;
+				height:202px;
+				overflow:hidden;
+				float:left;
+				background:url(../images/tuangou/7.jpg) no-repeat 0px 0px;
+			}
+			#tg_pinpai_ri ul.tg_show li a.miaoshu{
+				width:378px;
+				height:38px;
+				border-bottom:dashed 1px #CCCCCC;
+				margin-left:10px;
+				font-size:18px;
+				line-height:38px;
+				float:left;
+			}
+			#tg_pinpai_ri ul.tg_show li p.price{
+				width:100px;
+				margin-left:10px;
+				height:45px;
+				line-height:45px;
+				float:left;
+			}
+				#tg_pinpai_ri ul.tg_show li p.price span{
+					font-family:verdana;
+					font-size:22px;
+					font-weight:700;
+					color:#e4393c;
+				}
+			#tg_pinpai_ri ul.tg_show li p.qiang{
+				width:130px;
+				margin-right:10px;
+				height:45px;
+				float:right;
+				line-height:45px
+			}
+				#tg_pinpai_ri ul.tg_show li p.qiang span{
+					display:block;
+					width:75px;
+					height:25px;
+					position:absolute;
+					right:10px;
+					top:252px;
+					background:#EF4D50;
+					text-align:center;
+					line-height:25px;
+					font-family:"Microsoft Yahei";
+					color:#ffffff;
+				}
+	/* 下方展示区结束 */
+/* 品牌日区结束 */

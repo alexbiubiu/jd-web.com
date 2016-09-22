@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* Css Document */
+.fz_w{
+	width:990px;
+	margin:0px auto;
+}
+
+/* 顶部注册登陆区开始 */
+/* 右侧区开始 */
+#top_banner .banner_middle ul.right{
+	width:895px;
+	height:30px;
+	float:left;
+}
+/* 右侧区结束 */
+/* 顶部注册登陆区结束 */
+
+/* LOGO+搜索框区开始 */
+	/* 搜索区开始 */
+	#logo_search form.search{
+		width:462px;
+		height:36px;
+		overflow:hidden;
+		/* border:solid 1px blue; */
+		position:absolute;
+		right:166px;
+		top:32px;
+	}
+	#logo_search form.search input.text{
+		width:378px;
+		height:32px;
+		border:solid 2px #C81623;
+		border-right:none;
+		line-height:32px;
+		float:left;
+		font-family:"Microsoft YaHei";
+		color:#666666;
+		text-indent:7px;
+		word-spacing:4px;
+	}/* 搜索框区 */
+	#logo_search form.search button.button{
+		width:82px;
+		height:36px;
+		border:none;
+		float:left;
+		background:#C81623;
+		font-size:16px;
+		line-height:26px;
+		color:#f3dada;
+		text-align:center;
+	}/* 提交按钮 */
+	/* 搜索区结束 */
+	/* 购物车区开始 */
+	#logo_search .gouwuche{
+		width:139px;
+		height:34px;
+		border:solid 1px #DFDFDF;
+		position:absolute;
+		right:0px;
+		top:32px;
+	}
+/* 购物车区结束 */
+/* LOGO+搜索框区结束 */
+
+/* 导航区开始 */
+#meinu_box{
+	width:100%;
+	height:47px;
+	position:relative;
+	z-index:2;
+	background:#C81623;
+}
+	/* 中间内容区开始 */
+	#meinu_box .mid_content{
+		height:47px;
+		position:relative;
+	}
+
+		/* 左侧全部商品分类区开始 */
+		#meinu_box .mid_content div.left_fenlei{
+			width:210px;
+			height:47px;
+			position:absolute;
+			left:0px;
+			top:0px;
+			background:#B1191A;
+		}
+			#meinu_box .mid_content div.left_fenlei a.quanfen_lei{
+				display:block;
+				width:210px;
+				height:47px;
+				line-height:46px;
+				text-indent:10px;
+				color:#ffffff;
+				font-size:15px;
+			}
+			/* 下拉框区开始 */
+			#meinu_box .mid_content div.left_fenlei ul{
+				width:210px;
+				height:461px;
+				overflow:hidden;
+				background:#C81623;
+			}
+			#meinu_box .mid_content div.left_fenlei ul.hid{
+				display:none;
+			}
+				#meinu_box .mid_content div.left_fenlei ul li{
+					width:200px;
+					padding-left:10px;
+					height:36px;
+				}
+				#meinu_box .mid_content div.left_fenlei ul li:hover{
+					background:#9C0612;
+				}
+					/* 显示区开始 */
+					#meinu_box .mid_content div.left_fenlei ul li p.show{
+						width:190px;
+						height:36px;
+						line-height:36px;
+						border-bottom:dashed 1px #E48B91;
+					}
+					/* 显示区结束 */
+			/* 下拉框区结束 */
+		/* 左侧全部商品分类区结束 */
+		/* 右侧导航区开始 */
+			#meinu_box .mid_content ul.meinu_right li{
+				float:left;
+				height:47px;
+				/* position:relative; */
+			}
+				#meinu_box .mid_content ul.meinu_right li a{
+					display:block;
+					height:47px;
+					padding:0px 20px;
+					line-height:47px;
+					font-size:16px;
+					float:left;
+					color:#FFFFFF;
+				}
+				#meinu_box .mid_content ul.meinu_right li a:hover{
+					background:#9D1112;
+				}
+		/* 右侧导航区结束 */
+	/* 中间内容区结束 */
+/* 导航区结束 */
+
+/* 广告大图区开始 */
+img#ad{
+	width:990px;
+	height:380px;
+	display:block;
+	margin:0px auto;
+}
+/* 广告大图区结束 */
+
+/* 展示区开始 */
+ul#tg_show{
+	width:990px;
+	/* border:solid 1px red; */
+	margin:0px auto;
+	overflow:hidden;
+}
+	ul#tg_show li{
+		width:490px;
+		height:333px;
+		border:solid 1px #ECECEC;
+		float:left;
+		position:relative;
+		margin-right:5px;
+		margin-top:5px;
+	}
+	ul#tg_show li.teshu{
+		margin-right:0px;
+	}
+	ul#tg_show li:hover{
+		border:solid 1px #E4393C;
+	}
+		ul#tg_show li a.tupian{
+			display:block;
+			width:490px;
+			height:248px;
+			overflow:hidden;
+			float:left;
+		}
+			ul#tg_show li a.tupian img{
+				width:490px;
+				height:248px;
+			}
+
+		ul#tg_show li a.miaoshu{
+			display:block;
+			width:430px;
+			height:38px;
+			border-bottom:dashed 1px #CCCCCC;
+			margin-left:30px;
+			font-size:18px;
+			line-height:38px;
+			float:left;
+		}
+		ul#tg_show li p.price{
+			width:100px;
+			margin-left:30px;
+			height:45px;
+			line-height:45px;
+			float:left;
+		}
+			ul#tg_show li p.price span{
+				font-family:verdana;
+				font-size:22px;
+				font-weight:700;
+				color:#e4393c;
+			}
+		ul#tg_show li p.qiang{
+			width:130px;
+			margin-right:30px;
+			height:45px;
+			float:right;
+			line-height:45px
+		}
+			ul#tg_show li p.qiang span{
+				display:block;
+				width:75px;
+				height:25px;
+				position:absolute;
+				right:30px;
+				top:298px;
+				background:#EF4D50;
+				text-align:center;
+				line-height:25px;
+				font-family:"Microsoft Yahei";
+				color:#ffffff;
+			}
+/* 展示区结束 */
+
+/* 底部广告区开始 */
+img#foot_ad{
+	display:block;
+	width:990px;
+	height:115px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:10px;
+	border-bottom:solid 1px #DFDFDF;
+}
+/* 底部广告区结束 */
+

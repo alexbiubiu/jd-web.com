@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* Css Document */
+.fz_w{
+	width:990px;
+	margin:0px auto;
+}
+
+
+/* 顶部注册登陆区开始 */
+/* 右侧区开始 */
+#top_banner .banner_middle ul.right{
+	width:895px;
+	height:30px;
+	float:left;
+}
+/* 右侧区结束 */
+/* 顶部注册登陆区结束 */
+
+/* LOGO+搜索框区开始 */
+	/* 搜索区开始 */
+	#logo_search form.search{
+		width:462px;
+		height:36px;
+		overflow:hidden;
+		/* border:solid 1px blue; */
+		position:absolute;
+		right:166px;
+		top:32px;
+	}
+	#logo_search form.search input.text{
+		width:378px;
+		height:32px;
+		border:solid 2px #b61d1d;
+		border-right:none;
+		line-height:32px;
+		float:left;
+		font-family:"Microsoft YaHei";
+		color:#666666;
+		text-indent:7px;
+		word-spacing:4px;
+	}/* 搜索框区 */
+	#logo_search form.search button.button{
+		width:82px;
+		height:36px;
+		border:none;
+		float:left;
+		background:#AF173F;
+		font-size:16px;
+		line-height:26px;
+		color:#f3dada;
+		text-align:center;
+	}/* 提交按钮 */
+	/* 搜索区结束 */
+	/* 购物车区开始 */
+	#logo_search .gouwuche{
+		width:139px;
+		height:34px;
+		border:solid 1px #DFDFDF;
+		position:absolute;
+		right:0px;
+		top:32px;
+	}
+/* 购物车区结束 */
+/* LOGO+搜索框区结束 */
+
+/* 导航区开始 */
+/* 左侧全部商品分类区开始 */
+#meinu_box .mid_content div.left_fenlei{
+	width:210px;
+	height:46px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	color:#ffffff;
+}
+	#meinu_box .mid_content div.left_fenlei a.quanfen_lei{
+		display:block;
+		width:210px;
+		height:46px;
+		line-height:46px;
+		text-indent:10px;
+		background:#AF173F;
+		font-size:15px;
+	}
+	/* 下拉框区开始 */
+	#meinu_box .mid_content div.left_fenlei ul{
+		width:210px;
+		background:#CC2954;
+	}
+	#meinu_box .mid_content div.left_fenlei ul li{
+		width:190px;
+		padding:0px 10px;
+		height:29px;
+		line-height:29px;
+	}
+	/* 显示区开始 */
+	#meinu_box .mid_content div.left_fenlei ul li p.show{
+		width:190px;
+		height:29px;
+		line-height:29px;
+		font-size:14px;
+		background:url(../images/fenli_jiantou.png) no-repeat 192px 14px;
+		border-bottom:dotted 1px #ffffff;
+	}
+	#meinu_box .mid_content div.left_fenlei ul li:hover{
+		background:#9d0e34;
+		color:#ffffff;
+	}
+	/* 显示区结束 */
+	/* 下拉框区结束 */
+/* 左侧全部商品分类区结束 */
+/* 导航区结束 */
+/* 大轮播图区开始 */
+#lunbo{
+	width:1920px;
+	height:420px;
+	margin:0px auto;
+}
+	#lunbo img{
+		width:1920px;
+		height:420px;
+	}
+/* 大轮播图区结束 */
+
+/* 中间浮动小窗口区开始 */
+#fudong_search{
+	width:990px;
+	height:42px;
+	margin:0px auto;
+	background:#303030;
+	position:relative;
+	margin-bottom:10px;
+}
+	#fudong_search p.left{
+		height:42px;
+		width:400px;
+		float:left;
+		padding-left:10px;
+		line-height:42px;
+	}
+		#fudong_search p.left a{
+			float:left;
+			color:#ffffff;
+			margin-right:20px;
+		}
+		#fudong_search p.left a.teshu{
+			color:#D52320;
+		}
+	#fudong_search #search{
+		width:345px;
+		height:33px;
+		float:right;
+		margin-right:8px;
+		margin-top:4px;
+	}	
+#fudong_search.fixed{
+	position:fixed;
+	left:0px;
+	top:0px;
+}
+/* 中间浮动小窗口区结束 */
+
+/* 下方瀑布流效果区开始 */
+	#main{
+		width:990px;
+		overflow:hidden;
+	}
+		#main .list{
+			width:237px;
+			margin-right:14px;
+			float:left;
+		}
+
+/* 下方瀑布流效果区开始 */
